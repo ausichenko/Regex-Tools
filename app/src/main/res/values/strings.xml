@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Regex Tools</string>
+
+    <string name="nav_matcher">Matcher</string>
+    <string name="nav_sheet">Cheat Sheet</string>
+    <string name="nav_patterns">Patterns</string>
+</resources>
