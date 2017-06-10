@@ -4,4 +4,10 @@
     <string name="nav_matcher">Matcher</string>
     <string name="nav_sheet">Cheat Sheet</string>
     <string name="nav_patterns">Patterns</string>
+
+    <!-- Matcher Fragment -->
+    <string name="regular_expression_hint">Regular expression</string>
+    <string name="text_hint">Text</string>
+    <string name="found_matches">Found %d matches</string>
+    <!-- Matcher Fragment -->
 </resources>

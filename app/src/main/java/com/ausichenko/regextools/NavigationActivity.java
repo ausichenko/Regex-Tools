@@ -43,8 +43,7 @@ public class NavigationActivity extends AppCompatActivity {
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
-        // TODO: 09.06.17 fix it
-        getSupportActionBar().setTitle(R.string.nav_matcher);
+        getSupportActionBar().setTitle(navigation.getMenu().getItem(0).getTitle());
         changeFragment(new MatcherFragment());
     }
 
