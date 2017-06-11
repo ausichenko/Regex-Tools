@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.ausichenko.regextools.NavigationActivity">
+    tools:context="com.ausichenko.regextools.activities.NavigationActivity">
 
     <FrameLayout
         android:id="@+id/content"
