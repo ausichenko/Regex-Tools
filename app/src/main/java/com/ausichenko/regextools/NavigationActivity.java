@@ -5,6 +5,7 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 
+import com.ausichenko.regextools.database.DatabaseCreator;
 import com.ausichenko.regextools.fragments.CheatSheetFragment;
 import com.ausichenko.regextools.fragments.MatcherFragment;
 import com.ausichenko.regextools.fragments.PatternsFragment;
@@ -37,6 +38,7 @@ public class NavigationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
 
+        DatabaseCreator.getInstance(this).createDb(this);
         mMatcherFragment = new MatcherFragment();
         mPatternsFragment = new PatternsFragment();
         mCheatSheetFragment = new CheatSheetFragment();
