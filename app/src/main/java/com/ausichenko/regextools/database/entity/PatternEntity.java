@@ -1,17 +1,17 @@
-package com.ausichenko.regextools.database;
+package com.ausichenko.regextools.database.entity;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 
 @Entity
-public class Pattern {
+public class PatternEntity {
     @PrimaryKey
     private int id;
 
     private String name;
     private String pattern;
 
-    public Pattern(String name, String pattern) {
+    public PatternEntity(String name, String pattern) {
         this.name = name;
         this.pattern = pattern;
     }
