@@ -12,11 +12,11 @@ import java.util.List;
 
 @Dao
 public interface PatternDao {
-    @Query("SELECT * FROM pattern")
+    @Query("SELECT * FROM patterns")
     LiveData<List<PatternEntity>> getAll();
 
     @Insert
-    void insertAll(PatternEntity... pattern);
+    void insertAll(List<PatternEntity> patterns);
 
     @Delete
     void delete(PatternEntity pattern);

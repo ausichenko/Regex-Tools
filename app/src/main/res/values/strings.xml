@@ -10,4 +10,9 @@
     <string name="text_hint">Text</string>
     <string name="found_matches">Found %d matches</string>
     <!-- Matcher Fragment -->
+
+    <string name="loading_patterns">Loading patterns...</string>
+    <string name="cd_products_list">Products list</string>
+    <string name="cd_comments_list">Comments list</string>
+    <string name="cd_product_name">Name of the product</string>
 </resources>

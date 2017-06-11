@@ -45,7 +45,7 @@ public class PatternListViewModel extends AndroidViewModel {
      * Expose the LiveData Comments query so the UI can observe it.
      */
 
-    public LiveData<List<PatternEntity>> getObservablePatterns() {
+    public LiveData<List<PatternEntity>> getPatterns() {
         return mObservablePatterns;
     }
 }
